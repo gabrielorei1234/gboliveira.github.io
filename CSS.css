@@ -1,0 +1,201 @@
+/* CSS Document */
+body,
+
+html{
+
+ 	margin:0;
+	padding:0;
+	font-size:18px;
+
+}
+
+body{
+	background:#ccc url(https://shopinfo.vteximg.com.br/arquivos/ids/412336/background-categoria-acessorios.jpg?v=636825706246670000) 		center top no-repeat;
+	background-size:100%;
+	background-attachment:scroll;
+	background-color:#111111;
+
+}
+
+a,a img{
+	text-decoration:none;
+	border:none;
+}
+
+img{
+	max-width:100%;
+	height:auto;
+}
+
+.principal{
+	width: 1280px;
+	color: #000000;
+	margin: 0 auto;
+	font-family:sans-serif;
+}
+.logocima{
+widht:20px;
+height:auto;
+margin:20px;
+	padding:0;
+}
+
+
+.cabecalho, 
+.logo, 
+.rodape,
+.menu{
+	width:100%;
+	display:block;
+	clear:both;
+}
+
+
+.cabecalho{
+	height:100px;
+}
+.logo-cabecalho{
+	float:left;
+	font-family: 'Montserrat', sans-serif;
+}
+.logo-cabecalho a{
+	font-size:50px;
+	font-style:italic;
+	text-decoration:none;
+	color:#FFFFFF;
+	display:block;
+	padding:20px 0 0 0;
+}
+.pesquisa{
+	float:right;
+	margin-top:40px;
+	margin-right:10px;
+}
+
+.menu{
+	background:#FF0000;
+	border-bottom-style:solid;
+	border-bottom-color:#000000;
+	
+}
+.menu ul li, 
+.menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	
+}
+.menu ul li:hover{
+background-color:#333333;
+cursor:pointer;
+}
+.menu ul li{
+	display:inline-block;
+	
+	
+}
+.menu ul li a{
+	display:block;
+	color:#fff;
+	padding:13px 19px;
+	font-family: 'Montserrat', serif;
+	font-style:oblique;
+	
+}
+.corpo{
+	position:relative;
+	overflow:hidden;
+	
+}
+.artigos{
+	float:left;
+	
+}
+.artigos img:hover{
+cursor:pointer;
+}
+.artigos, .artigos:before{
+	width:70%;
+}
+.artigos:before{
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	background:#fff;
+	z-index:-1;
+	content:'';
+}
+.barra-lateral{
+	float:right;
+}
+.barra-lateral, .barra-lateral:before{
+	width:30%;
+}
+.barra-lateral:before{
+   content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+	right:0;
+    z-index: -1;
+    background: #f1f1f1;
+}
+.espacamento{
+	padding:20px;
+	
+	
+}
+
+
+
+
+.rodape{
+	padding:20px;
+	text-align:center;
+}
+
+#divBusca{
+  background-color:#E0EEEE;
+  border:solid 2px #000000;
+  border-radius:10px;
+  width:300px;
+  height:32px;
+}
+ 
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px; 
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+ 
+#btnBusca{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px;
+  font-weight:bold;
+  background:#990000;
+}
+ 
+#divBusca img{
+  float:left;
+}
+.borda img:hover{
+border:10px;
+border-color:#00FF00;
+}
+
+.card:hover{
+-webkit-boxshadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+-moz-boxshadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+
+}
+
+/* CSS Document */
